@@ -11,7 +11,7 @@ public class A {
 //https://javaconceptoftheday.com/how-the-strings-are-stored-in-the-memory/
 /*
 
-String represents sequence of characters enclosed within the double quotes.  ìabcî, ìJAVAî, ì123î, ìAî are some examples of strings. 
+String represents sequence of characters enclosed within the double quotes.  ‚Äúabc‚Äù, ‚ÄúJAVA‚Äù, ‚Äú123‚Äù, ‚ÄúA‚Äù are some examples of strings. 
 In many languages, strings are treated as character arrays. 
 
 But In java, strings are treated as objects. To create and manipulate the strings, Java provides three classes.
@@ -23,15 +23,15 @@ But In java, strings are treated as objects. To create and manipulate the string
 
 3) java.lang.StringBuilder           (From JDK 1.5)
 
-Letís discuss some introductory points about these three classes.
+Let‚Äôs discuss some introductory points about these three classes.
 
 1) All these three classes are members of java.lang package and they are final classes. 
 
-	That means we canít create subclasses to these three classes.
+	That means we can‚Äôt create subclasses to these three classes.
 
 2) All three classes implement Serializable and CharSequence interface.
 
-3) java.lang.String objects are immutable in java. That is, once we create String objects, we canít modify them. 
+3) java.lang.String objects are immutable in java. That is, once we create String objects, we can‚Äôt modify them. 
 	Whenever we try to modify the existing String object, a new String object is created with modifications. 
 	Existing object is not at all altered. Where as java.lang.StringBuffer and java.lang.StringBuilder objects are mutable. 
 	That means, we can perform modifications to existing objects.
@@ -50,5 +50,6 @@ Letís discuss some introductory points about these three classes.
 
 8) In case of String class, we can create the objects without new operator. 
 	But in case of StringBuffer and StringBuilder class, we have to use new operator to create the objects.
+	i am learning github and my name is abhimanyu	
 
 */
